@@ -1,0 +1,16 @@
+/* Q1. How many movies and TV shows are there in total?*/
+/* Q2. What is the breakdown of movies vs. TV shows in the data? */
+/* Q3. Total TV showes and movies marked under comedy genres? */
+/* Q4. Total TV showes and movies marked under comedy Romantic? */
+/* Q5. Compare the number of titles released per year, arrrange it in ascending order */
+/* Q5.Select year where there was maximum release and count to release*/
+/* Q6.List total release distribution over years ?*/
+/* Q7.List distinct rating? */
+ /* Q8. Alter table for incorrect data : update duration as 66 min, 74 min, 84 min 
+  where show ID is s5814, s5542, s5795 respectively ? */
+/* Q9. Alter table for incorrect data : remove rating entry 
+  where show ID is s5814, s5542, s5795 respectively ? */
+/* Q10. create seprate table for rating having two columns show_id and rating ? */
+/* Q11. create seprate table for rating having two columns show_id and rating ? */
+/* Q12. show distribution based on rating ? */
+/* Q13. Find our showes for which no rating given? */

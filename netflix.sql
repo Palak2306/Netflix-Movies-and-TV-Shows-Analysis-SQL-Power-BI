@@ -110,3 +110,19 @@ group by rating;
 /* Q13. Find our showes for which no rating given? */
 
 select title from netflix_table where rating is null  ;
+
+/* Q14. What are the top 10 most common rating categories used across all Netflix content, 
+and how many titles fall under each? */
+
+SELECT 
+  rl.rating,
+  COUNT(nt.show_id) AS total_titles
+FROM 
+  netflix_table nt
+JOIN 
+  rating_list rl ON nt.show_id = rl.show_id
+GROUP BY 
+  rl.rating
+ORDER BY 
+  total_titles DESC
+LIMIT 10;
